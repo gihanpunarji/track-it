@@ -66,7 +66,7 @@ export default function Dashboard() {
             <div className="bg-white rounded-lg h-screen flex flex-row">
 
               <div className="bg-slate-600 col-span-3"><h1>Hi</h1></div>
-              <div className="bg-red-800 col-4"><h2>kdf</h2></div>
+              <div className="bg-red-800 col-4"><h2>kdf</h2></div>    
 
             </div>
           </div>
