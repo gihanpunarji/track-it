@@ -16,19 +16,19 @@ function ViewInventory() {
         <table className="min-w-full mx-auto border border-gray-300">
           <thead>
             <tr>
-              <th className="px-4 py-2 bordeer">ID</th>
-              <th className="px-4 py-2 bordeer">Name</th>
-              <th className="px-4 py-2 bordeer">Brand</th>
-              <th className="px-4 py-2 bordeer">Model</th>
+              <th className="px-4 py-2 border">ID</th>
+              <th className="px-4 py-2 border">Name</th>
+              <th className="px-4 py-2 border">Brand</th>
+              <th className="px-4 py-2 border">Model</th>
             </tr>
           </thead>
           <tbody>
             {inventoryData.map((item) => (
               <tr key={item.id}>
-                <td className="px-4 py-2 bordeer">{item.id}</td>
-                <td className="px-4 py-2 bordeer">{item.name}</td>
-                <td className="px-4 py-2 bordeer">{item.brand}</td>
-                <td className="px-4 py-2 bordeer">{item.model}</td>
+                <td className="px-4 py-2 border">{item.id}</td>
+                <td className="px-4 py-2 border">{item.name}</td>
+                <td className="px-4 py-2 border">{item.brand}</td>
+                <td className="px-4 py-2 border">{item.model}</td>
               </tr>
             ))}
           </tbody>
