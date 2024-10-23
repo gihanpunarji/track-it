@@ -109,7 +109,7 @@ export default function Dashboard() {
     <tr className="hover:bg-gray-50">
       <td className="border border-gray-300 p-2">04</td>
       <td className="border border-gray-300 p-2">Samsung Note 4</td>
-      <td className="border border-gray-300 p-2">52</td>
+      <td className="border border-gray-300 p-2">52</td> 
     </tr>
   </tbody>
 </table>
