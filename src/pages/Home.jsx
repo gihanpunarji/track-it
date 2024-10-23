@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect, useRef } from "react";
-import profileImage from "../assets/images/dp.jpg";
-import SideBar from "./SideBar";
-import Dashboard from "./Dashboard";
+import profileImage from "../a
+import SideBar from "../components/SideBar";
+import Dashboard from "../components/Dashboard";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
