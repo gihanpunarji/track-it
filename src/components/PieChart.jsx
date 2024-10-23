@@ -1,9 +1,8 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import ChartDataLabels from 'chartjs-plugin-datalabels'; // Importing the datalabels plugin
+import ChartDataLabels from 'chartjs-plugin-datalabels'; 
 
-// Register ArcElement, Tooltip, Legend, and ChartDataLabels
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
 export default function PieChart() {
@@ -37,10 +36,10 @@ export default function PieChart() {
         position: 'top',
       },
       datalabels: {
-        color: '#000', // Label color
+        color: '#000', 
         formatter: (value, context) => {
-          const total = context.dataset.data.reduce((a, b) => a + b, 0); // Get total sum
-          const percentage = ((value / total) * 100).toFixed(2) + '%'; // Calculate percentage
+          const total = context.dataset.data.reduce((a, b) => a + b, 0); 
+          const percentage = ((value / total) * 100).toFixed(2) + '%';
           return percentage;
         },
         font: {
