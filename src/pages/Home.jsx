@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect, useRef } from "react";
-import profileImage from "../a
+import profileImage from "../assets/images/dp.jpg";
 import SideBar from "../components/SideBar";
 import Dashboard from "../components/Dashboard";
 
