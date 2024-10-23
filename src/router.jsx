@@ -12,11 +12,18 @@ const router = createBrowserRouter([
     {
         path: "/home",
         element: <Home />
+<<<<<<< HEAD
 
+=======
+>>>>>>> adc709225a1fdb9046338b762285f682152ec63e
     },
     {
         path: "/addproduct",
         element: <AddProduct />
+<<<<<<< HEAD
+=======
+
+>>>>>>> adc709225a1fdb9046338b762285f682152ec63e
 
     }
 ])
