@@ -123,7 +123,7 @@ export default function Dashboard() {
     <tr>
       <th className="border border-gray-300 text-left p-2">Code</th>
       <th className="border border-gray-300 text-left p-2">Name</th>
-    </tr>
+    </tr>    
   </thead>
   <tbody>
     <tr className="hover:bg-gray-50">

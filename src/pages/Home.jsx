@@ -44,7 +44,7 @@ export default function Home() {
       <div className="flex-1 relative">
         <div className="h-20 flex items-center justify-between border-b border-[#EBEBEB]">
           <div
-            className={`fixed top-4 left-4 z-30 transition-all duration-300 ${
+            className={` top-4 left-4 z-30 transition-all duration-300 ${
               isOpen ? "hidden" : "opacity-100"
             }`}
           >
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
 
         <main>
-          <Dashboard />
+       <Dashboard/>
         </main>
       </div>
     </div>
