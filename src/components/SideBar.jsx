@@ -50,7 +50,7 @@ function SideBar() {
                 Add New Product
               </a>
               <a
-                href="/view-inventory"
+                href="/viewinventory"
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded"
               >
                 View Inventory

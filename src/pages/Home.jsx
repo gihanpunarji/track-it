@@ -61,7 +61,7 @@ export default function Home() {
 
         <main>
        <Dashboard/>
-        </main>
+       </main>
       </div>
     </div>
   );

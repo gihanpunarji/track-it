@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
   faMoneyBillWave,
   faPiggyBank,
@@ -84,84 +83,67 @@ export default function Dashboard() {
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-xl font-semibold mb-4">Top Sales (Dec.)</h3>
           <table className="w-full border border-gray-300">
-  <thead className="bg-gray-100">
-    <tr>
-      <th className="border border-gray-300 text-left p-2">Code</th>
-      <th className="border border-gray-300 text-left p-2">Name</th>
-      <th className="border border-gray-300 text-left p-2">Qty</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr className="hover:bg-gray-50">
-      <td className="border border-gray-300 p-2">01</td>
-      <td className="border border-gray-300 p-2">IPhone 13</td>
-      <td className="border border-gray-300 p-2">22</td>
-    </tr>
-    <tr className="hover:bg-gray-50">
-      <td className="border border-gray-300 p-2">02</td>
-      <td className="border border-gray-300 p-2">Redmi Note 8</td>
-      <td className="border border-gray-300 p-2">45</td>
-    </tr>
-    <tr className="hover:bg-gray-50">
-      <td className="border border-gray-300 p-2">03</td>
-      <td className="border border-gray-300 p-2">Samsung Galaxy 4</td>
-      <td className="border border-gray-300 p-2">18</td>
-    </tr>
-    <tr className="hover:bg-gray-50">
-      <td className="border border-gray-300 p-2">04</td>
-      <td className="border border-gray-300 p-2">Samsung Note 4</td>
-      <td className="border border-gray-300 p-2">52</td> 
-    </tr>
-  </tbody>
-</table>
-
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="border border-gray-300 text-left p-2">Code</th>
+                <th className="border border-gray-300 text-left p-2">Name</th>
+                <th className="border border-gray-300 text-left p-2">Qty</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="hover:bg-gray-50">
+                <td className="border border-gray-300 p-2">01</td>
+                <td className="border border-gray-300 p-2">IPhone 13</td>
+                <td className="border border-gray-300 p-2">22</td>
+              </tr>
+              <tr className="hover:bg-gray-50">
+                <td className="border border-gray-300 p-2">02</td>
+                <td className="border border-gray-300 p-2">Redmi Note 8</td>
+                <td className="border border-gray-300 p-2">45</td>
+              </tr>
+              <tr className="hover:bg-gray-50">
+                <td className="border border-gray-300 p-2">03</td>
+                <td className="border border-gray-300 p-2">Samsung Galaxy 4</td>
+                <td className="border border-gray-300 p-2">18</td>
+              </tr>
+              <tr className="hover:bg-gray-50">
+                <td className="border border-gray-300 p-2">04</td>
+                <td className="border border-gray-300 p-2">Samsung Note 4</td>
+                <td className="border border-gray-300 p-2">52</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-xl font-semibold mb-4">Top Suppliers (Dec.)</h3>
           <table className="w-full border border-gray-300">
-  <thead className="bg-gray-100">
-    <tr>
-      <th className="border border-gray-300 text-left p-2">Code</th>
-      <th className="border border-gray-300 text-left p-2">Name</th>
-    </tr>    
-  </thead>
-  <tbody>
-    <tr className="hover:bg-gray-50">
-      <td className="border border-gray-300 p-2">01</td>
-      <td className="border border-gray-300 p-2">Saman Silva</td>
-    </tr>
-    <tr className="hover:bg-gray-50">
-      <td className="border border-gray-300 p-2">02</td>
-      <td className="border border-gray-300 p-2">Sahan Udara</td>
-    </tr>
-    <tr className="hover:bg-gray-50">
-      <td className="border border-gray-300 p-2">03</td>
-      <td className="border border-gray-300 p-2">Suneth Uswatte</td>
-    </tr>
-    <tr className="hover:bg-gray-50">
-      <td className="border border-gray-300 p-2">04</td>
-      <td className="border border-gray-300 p-2">Mouse</td>
-    </tr>
-  </tbody>
-</table>
-
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="border border-gray-300 text-left p-2">Code</th>
+                <th className="border border-gray-300 text-left p-2">Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="hover:bg-gray-50">
+                <td className="border border-gray-300 p-2">01</td>
+                <td className="border border-gray-300 p-2">Saman Silva</td>
+              </tr>
+              <tr className="hover:bg-gray-50">
+                <td className="border border-gray-300 p-2">02</td>
+                <td className="border border-gray-300 p-2">Sahan Udara</td>
+              </tr>
+              <tr className="hover:bg-gray-50">
+                <td className="border border-gray-300 p-2">03</td>
+                <td className="border border-gray-300 p-2">Suneth Uswatte</td>
+              </tr>
+              <tr className="hover:bg-gray-50">
+                <td className="border border-gray-300 p-2">04</td>
+                <td className="border border-gray-300 p-2">Mouse</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-=======
-import React from "react";
-
-function Dashboard() {
-  return (
-    <div>
-      <div>
-        <h2 className="p-4 text-xl">Dashboard</h2>
-      </div>
-      <div className="bg-[#F8F8F8] h-screen p-10">
-        <div className="bg-white rounded-lg h-screen">
-        </div>
->>>>>>> 570c155 (Add product design)
       </div>
     </div>
   );
 }
-
-export default Dashboard;
