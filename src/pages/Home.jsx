@@ -3,18 +3,19 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect, useRef } from "react";
 import profileImage from "../assets/images/dp.jpg";
 import SideBar from "../components/SideBar";
-import Dashboard from "../components/Dashboard";
+// import Dashboard from "../components/Dashboard";
+import GRN from "../components/GRN";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const sidebarRef = useRef(null);
-
+// helo
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
         setIsOpen(false);
       }
-    };
+    };    
 
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
@@ -60,7 +61,7 @@ export default function Home() {
         </div>
 
         <main>
-       <Dashboard/>
+       <GRN/>
        </main>
       </div>
     </div>

@@ -5,7 +5,6 @@ import {
   faWarehouse,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 import ProfitLossChart from "./ProfitLossChart";
 import PieChart from "./PieChart";
 import StockAnalysisChart from "./StockAnalisysChart";
@@ -13,8 +12,6 @@ import StockAnalysisChart from "./StockAnalisysChart";
 export default function Dashboard() {
   return (
     <div className="bg-[#F8F8F8] p-6 min-h-screen">
-      <h2 className="text-2xl font-semibold p-4">Dashboard</h2>
-
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-6">
         <div className="bg-white p-6 rounded-lg shadow flex items-center sm:justify-start gap-10">
           <FontAwesomeIcon
@@ -61,7 +58,7 @@ export default function Dashboard() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="bg-white p-8 rounded-lg shadow lg:col-span-2">
+        <div className="bg-white p-8 rounded-lg shadow lg:col-span-2 w-full h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px]">
           <h3 className="text-xl font-semibold mb-4">Profit & Loss Overview</h3>
           <ProfitLossChart />
         </div>
