@@ -9,13 +9,13 @@ import GRN from "../components/GRN";
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const sidebarRef = useRef(null);
-
+// helo
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
         setIsOpen(false);
       }
-    };
+    };    
 
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
