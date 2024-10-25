@@ -16,9 +16,12 @@ function ViewInventory() {
         <table className="min-w-full mx-auto border border-gray-300">
           <thead>
             <tr>
-              <th className="px-4 py-2 border">ID</th>
+              <th className="px-4 py-2 border">IMEI</th>
               <th className="px-4 py-2 border">Name</th>
               <th className="px-4 py-2 border">Brand</th>
+              <th className="px-4 py-2 border">Selling Price</th>
+              <th className="px-4 py-2 border">Buying Price</th>
+              <th className="px-4 py-2 border">Quantity</th>
               <th className="px-4 py-2 border">Model</th>
             </tr>
           </thead>
