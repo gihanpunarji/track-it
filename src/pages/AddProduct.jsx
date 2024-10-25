@@ -24,7 +24,7 @@ function AddProduct() {
 
   const handleScanBarcode = () => {
     // Simulate scanning barcode and setting the IMEI number
-    setImei("123456789012345"); // Replace this with the actual scanned value
+    setImei("123456789012345"); 
   };
 
   return (
